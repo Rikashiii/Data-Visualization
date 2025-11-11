@@ -8,3 +8,7 @@
 	=COUNTIF(E2:E26,"<75")
 	
 	#3 QUESTIONS MISSING
+---------------------------------------------------------------
+
+	">"&CELLNAME     (Concatenation)
+=COUNTIF(B2:B16,">"&F17)
